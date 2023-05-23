@@ -112,8 +112,8 @@ sudo apt install make
 echo 'Clone git repo to EC2'
 cd /home/ubuntu && git clone ${var.repo_url}
 
-echo 'CD to data_engineering_project_template directory'
-cd data_engineering_project_template
+echo 'CD to Crime-line directory'
+cd Crime-line
 
 echo 'Start containers & Run db migrations'
 make up
